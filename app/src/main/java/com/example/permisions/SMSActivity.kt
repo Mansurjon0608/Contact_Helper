@@ -52,6 +52,7 @@ class SMSActivity : AppCompatActivity() {
                     e.goToSettings();
                 }
             }
+            finish()
         }
 
         card_ortga.setOnClickListener {
